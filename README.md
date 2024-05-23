@@ -6,6 +6,8 @@
   <li>Matias Brunini</li>
   <li>Norma Suriano</li>
 </u>
+<br>
+<br>
 <P>En este proyecto desarrollado para el cuatrimestre de Frontend, hemos creado nuestro sitio web, LLamado "El Tío Moe"</P>
 <p>Este bar & food ofrece, comida y barra en el local, y además cuenta con un servicio de catering</p>
 <p>Desde el sitio web se puede reservar mesa en el local por medio del apartado de contacto, mediante un formulario</p>
