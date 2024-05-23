@@ -1,5 +1,5 @@
-<h1 aling=center>Bienvenido!</h1>
-<h2 aling=center>Somos el grupo 20</h2>
+<h1 aling="center">Bienvenido!</h1>
+<h2 aling="center">Somos el grupo 20</h2>
 <h3>Integrado por:</h3>
 <u>
   <li>Bruno Piaggio</li>
