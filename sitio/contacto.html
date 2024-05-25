@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+
+            <nav>
+                <ul>
+                    <li><img id="logo" src="./imagenes/logo.png" alt="logo"></li>
+                    <li class="items"><a href="index.html">Home</a></li>
+                    <li class="items"><a href="sitio/menu.html">Menú</a></li>
+                    <li class="items"><a href="sitio/eventos.html">Eventos</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="formulario">
+            <h2 class="text-center p-2 bg-text-warning bg-gradient">
+                Reserva
+            </h2>
+
+            <div class="container-fluid">
+
+                <section class="row justify-content-center">
+                    <form method="POST" name="Reserva" action="https://formsubmit.co/piaggiobruno91@gmail.com"
+                        class="row g-3 col-12 col-md-12 col-lg-6 mt-2">
+                        <div class="col-md-6">
+                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre"
+                                required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Apellido"
+                                required>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                required>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" name="personasCantidad" id="personasCantidad" class="form-control"
+                                placeholder="Cantidad de personas" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" name="telefono" id="telefono" class="form-control" placeholder="Teléfono"
+                                required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="servicio" id="servicio" class="form-control"
+                                placeholder="Servicio de interés" required>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="consultas" id="consultas" class="form-control" cols="10" rows="5"
+                                placeholder="Su consulta" required></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button name="submit" type="submit" class="btn btn-dark">Enviar</button>
+                        </div>
+                    </form>
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <h3 class="pie"> Grupo 20</h3>
+
+        <section class="nombres">
+
+            <div class="bruno">
+
+                <p>Bruno Piaggio</p>
+                <a href="https://github.com/Bruuno13" target="_blank">
+                    <img src="./img/github.png" alt="logo github">
+                </a>
+
+                <a href="https://linkedin.com/in/bruno-piaggio-9933331a0" target="_blank">
+                    <img id="in" src="./img/linkedin.png" alt="logo de linkedin">
+                </a>
+
+            </div>
+
+            <div class="norma">
+
+                <p>Norma Suriano</p>
+                <a href="https://github.com/NSuriano" target="_blank">
+                    <img src="./img/github.png" alt="logo github">
+                </a>
+
+                <a href="https://linkedin.com/in/norma-suriano-611789265" target="_blank">
+                    <img id="in" src="./img/linkedin.png" alt="logo linkedin">
+                </a>
+
+            </div>
+
+            <div class="matias">
+
+                <p>Matias Grande Brunini</p>
+                <a href="https://github.com/mgbrunini" target="_blank">
+                    <img src="./img/github.png" alt="logo github">
+                </a>
+
+                <a href="https://linkedin.com/in/mgbrunini" target="_blank">
+                    <img id="in" src="./img/linkedin.png" alt="logo linkedin">
+                </a>
+
+            </div>
+
+
+        </section>
+
+    </footer>
+</body>
+
+</html>
