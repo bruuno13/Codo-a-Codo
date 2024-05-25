@@ -4,28 +4,62 @@
 /*google font orbitron */
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
 
-* {
+/* * {
     box-sizing: border-box;
     list-style: none;
     width: 100%;
     margin: 0;
     padding: 0;
+} */
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
+/* 
 body {
     width: 100%;
     height: auto;
     padding: 0;
+} */
+body {
+    width: 100%;
+    height: 100%;
+   
 }
+
 
 /* encabezado*/
 
+/* .encabezado {
+    width: 100%;
+    height: 23vw;
+    background: url(../img/Catering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 4vw;
+} */
+
+.header {
+    width: 100%;
+    height: 13vw;
+    margin-bottom: 5px;
+   
+}
+
 .encabezado {
     width: 100%;
-    height: 12vw;
-    position: absolute;
-    
+    height: 23vw;
+    background: url(../img/Catering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 4vw;
 }
 
 .encabezado ul img {
