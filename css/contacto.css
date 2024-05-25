@@ -178,7 +178,7 @@ footer .nombres a img:hover {
         height: 14vw;
         position: absolute;
         top: 1.5vw;
-        left: 43%;
+        left: 40%;
         margin-bottom: 1.5vw;
     }
    
@@ -188,11 +188,15 @@ footer .nombres a img:hover {
     
     }
 
+    .encabezado nav ul {
+        margin-left: -18%;
+    }
+
     .encabezado nav ul .items a {
-        gap: 1.5vw;
+        gap: 1.7vw;
         font-size: 1.3rem;
         text-decoration: none;
-        left: -10%;
+       
     }
 
         
@@ -209,7 +213,15 @@ footer .nombres a img:hover {
 
      .info{
         display: block;
+
      }
+
+     
+     h3 {
+        text-align: center;
+        margin: 0 auto;
+     }
+        
 
      .info .datos ul li img {
         width: 6vw;
@@ -261,5 +273,9 @@ footer .nombres a img:hover {
     nav a {
         font-size: 1.8rem;
         justify-content: space-around;
+    }
+     
+    .formulario {
+        width: 85%;
     }
 }
