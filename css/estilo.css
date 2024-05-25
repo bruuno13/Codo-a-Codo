@@ -27,7 +27,7 @@ body {
 
 .encabezado {
     width: 100%;
-    height: 23vw;
+    height: 50vw;
     background: url(../img/bar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,6 +37,11 @@ body {
     width: 12vw;
     height: 11vw;
     margin: 2.5vw;
+}
+
+.encabezado ul img:hover {
+    transform: rotateY(360deg);
+    transition: 4s;
 }
 
 .encabezado nav ul {
@@ -69,7 +74,7 @@ nav a:hover {
 
 .galeria img {
     width: 100%;
-    height: 40vw;
+    height: 30vw;
     margin: 0; 
     top: 0; 
 }
