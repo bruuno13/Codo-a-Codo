@@ -13,19 +13,26 @@
 
 body {
     width: 100%;
-    height: auto;
-   
+    height: 100%;
 }
 
 /* encabezado*/
 
+.header {
+    width: 100%;
+    height: 13vw;
+    margin-bottom: 5px;
+   
+}
 
 .encabezado {
     width: 100%;
-    height: 13vw;
-    position: absolute;
+    height: 23vw;
+    background: url(../img/bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 4vw;
 }
-
 .encabezado ul img {
     width: 12vw;
     height: 11vw;
@@ -128,7 +135,11 @@ h2{
 /*footer*/
 
 footer {
+<<<<<<< HEAD
     background: url(../imagenes/footer.png);
+=======
+    background: url(../img/footer.png);
+>>>>>>> Mati
     width: 100%;
     height: 25%;
     color: whitesmoke;
