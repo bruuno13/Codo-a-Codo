@@ -220,11 +220,11 @@ footer .nombres a img:hover {
     }
 
     .encabezado nav #logo {
-        width: 16vw;
-        height: 14vw;
+        width: 17vw;
+        height: 15vw;
         position: absolute;
         top: 1.5vw;
-        left: 45%;
+        left: 43%;
         margin-bottom: 1.5vw;
     }
    
@@ -237,13 +237,16 @@ footer .nombres a img:hover {
     .encabezado nav ul {
         padding: 0;
         position: absolute;
-        left: 2vw;
+        left: -6.5vw;
+        gap: 3.5vw;
+    ;
     }
 
     .encabezado nav ul .items a {
-        gap: 3vw;
-        font-size: 1.2rem;
-        color: whitesmoke; 
+        gap: 4vw;
+        font-size: 1.5rem;
+        color: #4e0b1c; 
+      
     }
 
     .banner {
@@ -260,7 +263,7 @@ footer .nombres a img:hover {
     }
 
     .catering {
-        font-size: 2.5vw;
+  
         width: 89%;
         margin: 0 4vw;
         
@@ -268,12 +271,18 @@ footer .nombres a img:hover {
 
     .catering p {
         margin: 0 ;
-      
+        font-size: 1.1rem;
     }
+
     .servicios,
     .formulario {
         width: 85%;
         margin: 5vw 7vw;
+
+    }
+
+    .servicios .card .card-text {
+        font-size: 15px;
     }
 
     .footer .pie {
@@ -282,16 +291,26 @@ footer .nombres a img:hover {
 
     footer .nombres {
         text-align: center;
-        gap: 8vw;
+        gap:7vw;
         width: 30%;
         justify-content: space-between;
-        margin: 0 2vw;
+        left: 5vw;
     }
+
+    .bruno,
+    .matias,
+    .norma {
+     margin: 0 3vw;
+   
+    }
+
+
 
     footer .nombres a .in,
     footer .nombres a img {
-        width: 6.5vw;
-        height: 6.5vw;
+        width: 7vw;
+        height: 7vw;
+        margin-bottom: 4vw;
     }
     
 }  
@@ -314,7 +333,7 @@ footer .nombres a img:hover {
 
     .encabezado nav ul .items a {
         gap: 1vw;
-        font-size: 1.4rem;
+        font-size: 1.9rem;
        
        
     }
@@ -323,14 +342,29 @@ footer .nombres a img:hover {
         margin: 1vw 0;
     }
 
+    .catering {
+        font-size: 1.2rem;
+    }
+
     .servicios {
         width:85%;
         margin: 5vw auto;
     }
 
+    .servicios .card .card-text {
+        font-size: 15px;
+    }
+
     .formulario {
         width: 90%;
         margin: 0 auto;
+    }
+
+    footer .nombres a .in,
+    footer .nombres a img {
+        width: 7vw;
+        height: 7vw;
+        margin-bottom: 4vw;
     }
     
 }
