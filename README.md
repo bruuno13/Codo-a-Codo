@@ -3,7 +3,7 @@
 <h3>Integrado por:</h3>
 <ul>
  
-  <li>Bruno Piaggio</li><li><img src="./imagenes/logogrupo.png" alt="logo de equipo"></li>
+  <li>Bruno Piaggio</li>
   <li>Matias Brunini</li>
   <li>Norma Suriano</li>
 </ul>
