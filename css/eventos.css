@@ -23,9 +23,9 @@ body {
 
 .encabezado {
     width: 100%;
-    height: 12vw;
-    position: absolute;
+    height: 15vw;
     padding: 0;
+    position: absolute;
     
 }
 
@@ -73,10 +73,11 @@ body {
 
 .banner img {
     width: 100%;
-    height: 30%;
+    height: 15%;
     top: 0;
     margin: 0;
 }
+
 .catering {
     padding: 4vw;
     font-family: "Poppins", sans-serif;
@@ -98,24 +99,12 @@ body {
     font-size: 1.5vw;
 }
 
-.formulario h2 {
-    font-family: "Orbitron", sans-serif;
-    margin-top: 5vw; 
-}
-
-.formulario .btn:hover {
-    border: 4px solid #50e7e7e6;
-    
-}
 
 .container-fluid {
     padding: 0;
     width: 100%;
 }
 
-.formulario .btn{
-    border-radius: 25px;
-}
 
 #about .row {
     display: flex;
@@ -162,25 +151,24 @@ body {
     box-shadow: 10px 10px 17px 5px #2d2d2d98;
 
 }
-.formulario{
-    margin-bottom: 5%;
-}
+
 
 /*footer*/
 
 footer {
-    background: url(./img/footer.png);
+    background: url(../imagenes/footer.png);
     width: 100%;
-    height: 25%;
+    height: 27%;
     color: whitesmoke;
     font-family: "Orbitron", sans-serif;
     font-size: 1.1rem;
+    margin-top: 50px;
 }
 
 footer .nombres {
     display: flex;
     justify-content: space-around;
-    margin: 3px 0;
+    margin: 0;
     text-align: center;
    
 }
@@ -194,7 +182,7 @@ footer h3 {
 footer .nombres a img {
     width: 3vw;
     height: 3vw;
-    margin: 0 3px;
+    margin: 0 3px 10px 3px;
     
 }
 
@@ -274,12 +262,7 @@ footer .nombres a img:hover {
         font-size: 1.1rem;
     }
 
-    .servicios,
-    .formulario {
-        width: 85%;
-        margin: 5vw 7vw;
-
-    }
+    
 
     .servicios .card .card-text {
         font-size: 15px;
