@@ -32,6 +32,12 @@ body {
     margin: 2.5vw;
 }
 
+.encabezado ul img:hover {
+  transform: rotateY(360deg);
+  transition: 5s;
+  cursor: pointer;
+}
+
 .encabezado nav ul {
     display: flex;
     justify-content: space-around;
@@ -112,7 +118,10 @@ h2{
 
 .fotos img:hover,
 .foto:hover {
-    border: 2px solid #e7e4e4
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    border: 4px solid rgb(178, 175, 175);
 }
 
 
@@ -217,26 +226,29 @@ footer .nombres a img:hover {
         gap: 1%;
         margin-top: 0;
     }
-
-    .nombres a img {
-        width: 15px;
-        height: 15px;
+    footer .nombres a #in,
+    footer .nombres a img {
+        width: 6.5vw;
+        height: 6.5vw;
     }
 
 }
 
-@media (min-width: 501px)and(max-width: 750px) {
+@media (min-width: 501px) and (max-width: 800px) {
 
     .encabezado div ul {
         margin-top: 4vw;
+        position: absolute;
+        left: 4vw;
     }
 
     .encabezado ul img {
-        padding: 1.5vw;
+        margin: 3.2vw 0;
+
     }
 
-    nav a {
-        font-size: 1.8rem;
-        justify-content: space-around;
+    .encabezado nav ul .items a {
+        font-size: 1.5rem;
+        gap: 1vw;
     }
 }

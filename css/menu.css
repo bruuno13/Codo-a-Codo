@@ -41,9 +41,15 @@ body {
     width: 13vw;
     height: 12vw;
     margin: 3.5vw 2vw;
-   
     
 }
+
+.encabezado ul img:hover {
+    transform: rotateY(360deg);
+    transition: 5s;
+    cursor: pointer;
+}
+
 
 .encabezado nav ul {
     display: flex;
@@ -103,7 +109,11 @@ main {
     padding-bottom: 7vw;
     border: 4px solid #9a851c;
     border-radius: 28px;
+   
+    
 }
+
+
 
 .menu .bebidas,
 .menu .comida {
@@ -128,6 +138,14 @@ h2 {
     font-size: 1.7rem;
     margin: 3.5vw;
     
+}
+
+h2:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    color:  #9a851c;
 }
 
 /*footer*/
@@ -244,10 +262,11 @@ footer .nombres a img:hover {
         gap: 1%;
         margin-top: 0;
     }
+   
     footer .nombres a #in,
-    .footer .nombres a img {
-        width: 15px;
-        height: 15px;
+    footer .nombres a img {
+        width: 6.5vw;
+        height: 6.5vw;
     }
 
 }
