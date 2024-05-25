@@ -198,12 +198,12 @@ footer .nombres a img {
     
 }
 
-footer .nombres a #in {
+footer .nombres a .in {
     width: 2.6vw;
     height: 2.6vw;
 } 
 
-footer .nombres a #in:hover,
+footer .nombres a .in:hover,
 footer .nombres a img:hover {
   width: 3.6vw;
   height: 3.6vw;
@@ -288,7 +288,7 @@ footer .nombres a img:hover {
         margin: 0 2vw;
     }
 
-    footer .nombres a #in,
+    footer .nombres a .in,
     footer .nombres a img {
         width: 6.5vw;
         height: 6.5vw;
